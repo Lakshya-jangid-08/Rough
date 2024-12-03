@@ -1,0 +1,20 @@
+.Searchpage{
+    flex-direction: row;
+}
+@media (max-width: 600px) {
+    .Searchpage{
+        flex-direction: column;
+    }
+}
+.chat{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding: 40px;
+}
+@media (max-width: 600px) {
+    .chat{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding: 0px;
+    }
+}

@@ -1,0 +1,31 @@
+@keyframes shadowChange {
+    0% {
+      box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* Red */
+    }
+    14% {
+      box-shadow: 0 0 15px 5px rgba(255, 165, 0, 0.7); /* Orange */
+    }
+    28% {
+      box-shadow: 0 0 15px 5px rgba(255, 255, 0, 0.7); /* Yellow */
+    }
+    42% {
+      box-shadow: 0 0 15px 5px rgba(0, 128, 0, 0.7); /* Green */
+    }
+    57% {
+      box-shadow: 0 0 15px 5px rgba(0, 0, 255, 0.7); /* Blue */
+    }
+    71% {
+      box-shadow: 0 0 15px 5px rgba(75, 0, 130, 0.7); /* Indigo */
+    }
+    85% {
+      box-shadow: 0 0 15px 5px rgba(238, 130, 238, 0.7); /* Violet */
+    }
+    100% {
+      box-shadow: 0 0 15px 5px rgba(255, 105, 180, 0.7); /* Hot pink */
+    }
+  }
+  
+  .box {
+    animation: shadowChange 4s infinite;
+  }
+  

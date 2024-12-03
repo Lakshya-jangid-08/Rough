@@ -1,0 +1,42 @@
+.bright {
+    transition: transform 0.3s ease, text-shadow 0.3s ease;
+  }
+  
+  .bright:hover {
+    transform: scale(1.25);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 
+                 0 0 20px rgba(255, 255, 255, 0.6), 
+                 0 0 30px rgba(255, 255, 255, 0.4);
+  }
+  
+  .bright:hover svg {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8)) 
+            drop-shadow(0 0 20px rgba(255, 255, 255, 0.6));
+  }
+
+.menubar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: fit-content;
+}
+.subbox{
+  flex-direction: column;
+}
+@media (max-width: 600px) {
+    .menubar {
+        flex-direction: row;
+        height: fit-content;
+        width: 100vw;
+    }
+    .subbox{
+      flex-direction: row;
+    }
+}
+
+  /* @media  (min-width: 600px) {
+    .menubar{
+      flex-direction: row;
+    }
+    
+  } */
